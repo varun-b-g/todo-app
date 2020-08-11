@@ -1,0 +1,23 @@
+{
+  "SQLALCHEMY_DATABASE_URI": "sqlite:///todo.db",
+  "SQLALCHEMY_TRACK_MODIFICATIONS": true,
+  "TODO_VALIDATION_SCHEMA": {
+    "id": {
+      "type": "string",
+      "required": true,
+      "empty": false
+    },
+    "title": {
+      "type": "string",
+      "required": true,
+      "empty": false
+    }
+  },
+  "ID_VALIDATION_SCHEMA": {
+    "id": {
+      "type": "string",
+      "required": true,
+      "empty": false
+    }
+  }
+}
